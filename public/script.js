@@ -40,7 +40,7 @@ function animateTextLines() {
     }, textLines.length * 1000 + 1000); // Wait for fade out to complete
 }
 
-setInterval(animateTextLines, textLines.length * 1000 + 1000); // Repeat animation
+setInterval(animateTextLines, textLines.length * 2000 + 1000); // Repeat animation
 
 // Final Section: Typing Animation
 const line1 = document.getElementById('line1');
